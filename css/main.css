@@ -54,7 +54,7 @@ li > a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 50px;
+    padding: 50px 5px;
 }
 
 .projects-container article{
@@ -70,5 +70,5 @@ li > a {
 .description{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin-left: 5px;
 }
