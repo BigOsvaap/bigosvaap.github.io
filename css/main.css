@@ -54,7 +54,7 @@ li > a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 50px 25px;
+    padding: 50px;
 }
 
 .projects-container article{
@@ -65,7 +65,6 @@ li > a {
 .projects-container article > img{
     height: 100%;
     border: 2px solid red;
-    margin: 10px;
 }
 
 .description{
