@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .main-menu{
@@ -14,32 +15,31 @@
 li > a {
     color: white;
     text-decoration: none;
-    
 }
 
 h1, h2{
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.25rem;
 }
 
 p {
     text-align: start;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .social-buttons{
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 .nav-links{
     display: flex;
     justify-content: flex-end;
-    padding: 10px 30px;
+    padding: 0.75rem 2rem;
     list-style-type: none;
 }
 
 .nav-links li{
-    margin-left: 30px;
+    margin-left: 2rem;
 }
 
 .home-container{
@@ -47,7 +47,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 50px 25px 50px;
+    padding: 3rem 3rem 2rem 3rem;
     color: white;
     width: 100%;
 }
@@ -64,7 +64,7 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 50px 5px;
+    padding: 3rem 0.25rem;
 }
 
 .projects-container article{
@@ -72,7 +72,7 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 .project-content{
@@ -80,14 +80,15 @@ p {
     flex-direction: row;
 }
 
-.projects-container article > img{
-    border: 2px solid red;
+.project-title{
+    margin-bottom: 0.75rem;
 }
 
 .description{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    margin-top: 1.25rem;
+    margin-left: 1.5rem;
 }
 
 @media (max-width: 600px) {

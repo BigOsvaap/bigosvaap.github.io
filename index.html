@@ -3,7 +3,11 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Oswaldo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -14,9 +18,8 @@
     <header class="main-menu">
         <nav>
             <ul class="nav-links">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </header>
@@ -26,12 +29,12 @@
         <img class="profile" src="img/foca.png" style='max-width: 200px'>
             
         <h1>Oswaldo Vázquez Aparicio</h1>
-        <h2>Desarrollador de Software</h2>
-        <p>Desarrollo aplicaciones Android nativas mis lenguajes de programación son Java, Kotlin y Python.</p>
+        <h2>Sorftware Developer</h2>
+        <p>I develop native Android applications, my programming languages are Java, Kotlin and Python.</p>
 
         <a class="btn color-blue" href="docs/Oswaldo Vázquez Aparicio - CV Android Developer.pdf" target="_blank">
             <i class="fa fa-download"></i>
-            Descargar CV
+            Download CV
         </a>
 
         <div class="social-buttons">
@@ -44,11 +47,11 @@
 
     <div id="projects" class="projects-container">
 
-        <h1>Proyectos</h1>
+        <h1>Projects</h1>
 
         <article>
 
-            <h1>Agenda</h1>
+            <h1 class="project-title">Agenda</h1>
 
             <div class="project-content">
 
@@ -56,30 +59,42 @@
 
                 <div class="description">
 
-                    <div class="img-technologies">
+                        <p>Android application</p>
 
-                        <img src="#">
-                        <img src="#">
-                        <img src="#">
+                        <b>Features</b>
+                        <ul>
+                            <li>Create, Read, Update and Delete operations (CRUD)</li>
+                            <li>Implemented search of contacts by name</li>
+                            <li>Contacts are displayed sorted by name</li>
+                            <li>Contact details visualization</li>
+                            <li>Form validations</li>
+                            <li>Undo CRUD actions</li>
+                        </ul>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, saepe inventore ad facere repudiandae explicabo ipsam officia, nisi praesentium minima, adipisci quisquam cumque odit! Voluptas laborum quam facere optio atque?</p>
-                    
-                    </div>
+                        <br>
 
-                    <a class="btn color-black" href="docs/Oswaldo Vázquez Aparicio - CV Android Developer.pdf" target="_blank">
-                        <i class="fa fa-github"></i>
-                        Source code
-                    </a>
+                        <b>Tech Stack</b>
+                        <ul>
+                            <li>Dependency injection with Hilt</li>
+                            <li>Navigation Component</li>
+                            <li>Data persistance with Room</li>
+                            <li>MVVM Architecture</li>
+                        </ul>
+
+                        <br>
+
+                        <a class="btn color-black" href="https://github.com/BigOsvaap/Agenda" target="_blank">
+                            <i class="fa fa-github"></i>
+                            Source code
+                        </a>
                    
                 </div>
+
+                
 
             </div>
 
         </article>
-
-    </div>
-
-    <div id="contact" class="contact-container">
 
     </div>
 
