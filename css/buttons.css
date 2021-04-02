@@ -1,0 +1,61 @@
+.fa {
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+  
+.fa:hover {
+	  opacity: 0.7;
+}
+  
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+  
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+  
+.fa-github {
+	color: white;
+}
+
+.fa-github {
+	color: white;
+}
+
+.gray {
+	background: #91A3B0;
+}
+
+.btn {
+	display: flex;
+	height: 45px;
+	width: 200px;
+	align-items: center;
+	border: none;
+	color: white;
+	padding: 12px 15px;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration:none;
+}
+
+
+.color-blue {
+	background-color: #2510a3;
+}
+
+.color-black {
+	background-color: black;
+}
+
+
+
