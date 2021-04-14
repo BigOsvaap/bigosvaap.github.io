@@ -99,9 +99,18 @@ h1, h2{
     margin-left: 1.5rem;
 }
 
+.desktop{
+    max-width: 425px; 
+    height: auto;
+}
+
 @media (max-width: 600px) {
     .project-content-mobile{
         flex-direction: column;
         align-items: center;
+    }
+    .desktop{
+        max-width: 350px; 
+        height: auto;
     }
   }
