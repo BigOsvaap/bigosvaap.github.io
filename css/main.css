@@ -163,7 +163,7 @@ h1, h2, h3{
 .grid-container{
     margin: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 375px);
+    grid-template-columns: repeat(auto-fill, 325px);
     column-gap: 2rem;
     row-gap: 2rem;
     justify-content: center;
@@ -173,14 +173,14 @@ h1, h2, h3{
 .cell-certificate{
     text-decoration: none;
     color: white;
-    width: 375px;
+    width: 325px;
     height: auto;
 }
 
 .img-certificate{
-    width: 375px;
+    width: 325px;
     object-fit: fill;
-   height: calc(100% - 5rem);
+    height: calc(100% - 5rem);
 }
 
 .p-certificate{
